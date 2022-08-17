@@ -1,0 +1,43 @@
+h1 {
+  font-size:60px; color:blue; text-align:center;
+  border-bottom: 2px black solid;
+  margin: 0px;
+  }
+h2 {
+    font-size:30px; margin: 20px
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color:black;
+}
+a:visited{
+  color:gray;
+}
+a:hover{
+  color:blue
+}
+a:active{
+  color:green
+}
+.saw {
+  color:gray;
+}
+#active {
+  color:red;
+}
+@media(min-width:800px) {
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  #ol{
+    padding: 20px;
+    align-items: start;
+    }
+  #article{
+    border-left: 2px black solid;
+    padding: 20px;
+  }
+}
